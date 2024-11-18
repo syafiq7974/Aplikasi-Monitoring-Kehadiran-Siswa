@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'providers/attendance_provider.dart';
-import 'models/home_screen.dart';
+import 'providers/kehadiran_provider.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(
     ChangeNotifierProvider(
-      create: (_) => AttendanceProvider(),
+      create: (_) => KehadiranProvider(),
       child: MyApp(),
     ),
   );

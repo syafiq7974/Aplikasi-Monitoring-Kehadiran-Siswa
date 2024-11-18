@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'attendance_screen.dart';
+import 'kehadiran_screen.dart';
 import 'history_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -11,7 +11,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    AttendanceScreen(),
+    KehadiranScreen(),
     HistoryScreen(),
   ];
 

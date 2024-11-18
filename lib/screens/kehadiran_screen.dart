@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
-import '../providers/attendance_provider.dart';
+import '../providers/kehadiran_provider.dart';
 
-class AttendanceScreen extends StatelessWidget {
+class KehadiranScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final provider = Provider.of<AttendanceProvider>(context);
+    final provider = Provider.of<KehadiranProvider>(context);
 
     String dayOfWeek = DateFormat('EEEE').format(DateTime.now());
     String formattedDate = DateFormat('d MMMM yyyy').format(DateTime.now());

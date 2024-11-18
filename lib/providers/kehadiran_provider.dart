@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AttendanceProvider with ChangeNotifier {
+class KehadiranProvider with ChangeNotifier {
   List<Map<String, dynamic>> students = [
     {'name': 'Ali', 'isPresent': false},
     {'name': 'Budi', 'isPresent': false},
