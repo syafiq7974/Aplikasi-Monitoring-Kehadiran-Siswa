@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/attendance_provider.dart';
-import 'screen/home_screen.dart';
+import 'models/home_screen.dart';
 
 void main() {
   runApp(
